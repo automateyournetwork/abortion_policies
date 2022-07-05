@@ -1,0 +1,252 @@
+{
+    "Alabama": {
+        "Last Updated": "2022-06-28T22:14:05.000Z",
+        "banned_after_weeks_since_LMP": 0,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Arizona": {
+        "Last Updated": "2022-06-30T13:26:49.000Z",
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Arkansas": {
+        "Last Updated": "2022-06-24T18:39:14.000Z",
+        "banned_after_weeks_since_LMP": 0,
+        "exception_life": true
+    },
+    "California": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Connecticut": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Delaware": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "District of Columbia": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Florida": {
+        "Last Updated": "2022-07-05T15:55:49.000Z",
+        "banned_after_weeks_since_LMP": 15,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Georgia": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Hawaii": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Idaho": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_life": true
+    },
+    "Illinois": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Indiana": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Iowa": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Kansas": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Kentucky": {
+        "Last Updated": "2022-06-30T14:01:14.000Z",
+        "banned_after_weeks_since_LMP": 22,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Louisiana": {
+        "Last Updated": "2022-06-27T18:06:17.000Z",
+        "banned_after_weeks_since_LMP": 22,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Maine": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Maryland": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_fetal": "Serious fetal anomaly",
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Massachusetts": {
+        "Last Updated": "2022-06-30T09:58:24.000Z",
+        "banned_after_weeks_since_LMP": 24,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Michigan": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_life": true
+    },
+    "Minnesota": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Mississippi": {
+        "Last Updated": "2022-06-27T13:29:59.000Z",
+        "banned_after_weeks_since_LMP": 20,
+        "exception_fetal": "Serious fetal anomaly",
+        "exception_health": "Major Bodily Function",
+        "exception_life": true
+    },
+    "Missouri": {
+        "Last Updated": "2022-06-24T15:19:57.000Z",
+        "banned_after_weeks_since_LMP": 0,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Montana": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Major Bodily Function",
+        "exception_life": true
+    },
+    "Nebraska": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Nevada": {
+        "banned_after_weeks_since_LMP": 24,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "New Hampshire": {
+        "Last Updated": "2022-02-11T15:50:11.000Z",
+        "banned_after_weeks_since_LMP": 24,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "New York": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "North Carolina": {
+        "Last Updated": "2019-11-13T12:12:09.000Z",
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "North Dakota": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Ohio": {
+        "Last Updated": "2022-06-24T22:39:26.000Z",
+        "banned_after_weeks_since_LMP": 6,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Oklahoma": {
+        "Last Updated": "2022-06-24T18:35:26.000Z",
+        "banned_after_weeks_since_LMP": 0,
+        "exception_life": true
+    },
+    "Pennsylvania": {
+        "banned_after_weeks_since_LMP": 24,
+        "exception_health": "Major Bodily Function",
+        "exception_life": true
+    },
+    "Rhode Island": {
+        "Last Updated": "2019-07-02T11:33:41.000Z",
+        "banned_after_weeks_since_LMP": 99,
+        "exception_life": true
+    },
+    "South Carolina": {
+        "Last Updated": "2022-06-27T22:30:55.000Z",
+        "banned_after_weeks_since_LMP": 6,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Physical",
+        "exception_life": true,
+        "exception_rape_or_incest": true
+    },
+    "South Dakota": {
+        "Last Updated": "2022-06-24T14:47:55.000Z",
+        "banned_after_weeks_since_LMP": 0,
+        "exception_life": true
+    },
+    "Tennessee": {
+        "Last Updated": "2022-06-28T16:54:23.000Z",
+        "banned_after_weeks_since_LMP": 6,
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Texas": {
+        "Last Updated": "2022-07-02T10:05:28.000Z",
+        "banned_after_weeks_since_LMP": 0,
+        "exception_life": true
+    },
+    "Utah": {
+        "Last Updated": "2022-07-01T19:52:54.000Z",
+        "banned_after_weeks_since_LMP": 18,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Major Bodily Function",
+        "exception_life": true,
+        "exception_rape_or_incest": true
+    },
+    "Virginia": {
+        "Last Updated": "2022-02-15T21:04:54.000Z",
+        "banned_after_weeks_since_LMP": 26,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "Washington": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    },
+    "West Virginia": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_fetal": "Lethal fetal anomaly",
+        "exception_health": "Physical",
+        "exception_life": true
+    },
+    "Wisconsin": {
+        "banned_after_weeks_since_LMP": 22,
+        "exception_health": "Major Bodily Function",
+        "exception_life": true
+    },
+    "Wyoming": {
+        "banned_after_weeks_since_LMP": 99,
+        "exception_health": "Any",
+        "exception_life": true
+    }
+}

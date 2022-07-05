@@ -1,0 +1,5 @@
+
+The state of Maryland age below which restrictions apply: 18
+The state of Maryland requires a parent or parents must be told beforehand of the minor's decision to have an abortion. Some states require notification 48 hours before, some require notification 24 hours before, and some just require "before": True
+The state of Maryland requires If 1, one parent must be notified. If 2, both parents must be notified. If null, there are no restrictions on minors' abortions currently being enforced. Many, but not all, states have extended the definition of "parent" to include other adult guardians. If parents meeting the state's definition cannot be located, a minor would often need to secure a judicial bypass: 1
+The date of this information is unknown.

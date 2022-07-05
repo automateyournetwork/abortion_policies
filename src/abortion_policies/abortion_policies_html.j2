@@ -1,0 +1,142 @@
+{%- include 'datatable_header.j2' %}
+{%- if "gestational" in api %}
+<h1>Gestational Limits Per State</h1>
+<table id = "datatable">
+    <thead>
+        <tr>
+            <th>State</th>
+            <th>Banned after Weeks Since Last Menstrual Period</th>
+            <th>Life Exception</th>
+            <th>Health Exception</th>
+            <th>Fetal Health Exception</th>
+            <th>Rape or Incest Exception</th>
+            <th>Last Updated</th>
+        </tr>
+    </thead>
+    <tbody>    
+{%-     for state in data_to_template %}
+        <tr>
+            <td>{{ state }}</td>
+            <td>{{ data_to_template[state].banned_after_weeks_since_LMP }}</td>
+            <td>{{ data_to_template[state].exception_life | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exception_health | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exception_fetal | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exception_rape_or_incest | default("No exception") }}</td>
+            <td>{{ data_to_template[state]['Last Updated'] | default("No date available") }}</td>
+        </tr>
+{%-     endfor %}
+    </tbody>
+</table>
+{%- else %}
+{%- if "insurance" in api %}
+<h1>Insurance Coverage Per State</h1>
+<table id = "datatable">
+    <thead>
+        <tr>
+            <th>State</th>
+            <th>Requires Coverage</th>
+            <th>Private Coverage No Restrictions</th>
+            <th>Private Coverage Exception Life</th>
+            <th>Private Coverage Exception Health</th>
+            <th>Private Coverage Exception Fetal</th>
+            <th>Private Coverage Exception Rape or Incest</th>
+            <th>Exchange Coverage No Restrictions</th>
+            <th>Exchange Coverage Exception Life</th>
+            <th>Exchange Coverage Exception Health</th>
+            <th>Exchange Coverage Exception Fetal</th>
+            <th>Exchange Coverage Exception Rape or Incest</th>
+            <th>Exchange Coverage Forbids Coverage</th>
+            <th>Medicaid Coverage Provider Patient Decision</th>
+            <th>Medicaid Coverage Exception Life</th>
+            <th>Medicaid Coverage Exception Health</th>
+            <th>Medicaid Coverage Exception Fetal</th>
+            <th>Medicaid Coverage Exception Rape or Incest</th>
+            <th>Last Updated</th>
+        </tr>
+    </thead>
+    <tbody>
+{%-     for state in data_to_template %}
+        <tr>
+            <td>{{ state }}</td>
+            <td>{{ data_to_template[state].requires_coverage | default("No exception") }}</td>
+            <td>{{ data_to_template[state].private_coverage_no_restrictions | default("No exception") }}</td>
+            <td>{{ data_to_template[state].private_exception_life | default("No exception") }}</td>
+            <td>{{ data_to_template[state].private_exception_health | default("No exception") }}</td>
+            <td>{{ data_to_template[state].private_exception_fetal | default("No exception") }}</td>
+            <td>{{ data_to_template[state].private_exception_rape_or_incest | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exchange_coverage_no_restrictions | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exchange_exception_life | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exchange_exception_health | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exchange_exception_fetal | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exchange_exception_rape_or_incest | default("No exception") }}</td>
+            <td>{{ data_to_template[state].exchange_forbids_coverage | default("No exception") }}</td>
+            <td>{{ data_to_template[state].medicaid_coverage_provider_patient_decision | default("No exception") }}</td>
+            <td>{{ data_to_template[state].medicaid_exception_life | default("No exception") }}</td>
+            <td>{{ data_to_template[state].medicaid_exception_health | default("No exception") }}</td>
+            <td>{{ data_to_template[state].medicaid_exception_fetal | default("No exception") }}</td>
+            <td>{{ data_to_template[state].medicaid_exception_rape_or_incest | default("No exception") }}</td>
+            <td>{{ data_to_template[state]['Last Updated'] | default("No date available") }}</td>
+        </tr>
+{%-     endfor %}
+    </tbody>
+</table>
+{%- else %}
+{%- if "minors" in api %}
+<h1>Minors Per State</h1>
+<table id = "datatable">
+    <thead>
+        <tr>
+            <th>State</th>
+            <th>Below Age</th>
+            <th>Parental Consent Required</th>
+            <th>Parental Notification Required</th>
+            <th>Parents Required</th>
+            <th>Judicial Bypass Available</th>
+            <th>Allows Minor to Consent</th>
+            <th>Last Updated</th>
+        </tr>
+    </thead>
+    <tbody>    
+{%-     for state in data_to_template %}
+        <tr>
+            <td>{{ state }}</td>
+            <td>{{ data_to_template[state].below_age | default("No") }}</td>
+            <td>{{ data_to_template[state].parental_consent_required | default("No") }}</td>
+            <td>{{ data_to_template[state].parental_notification_required | default("No") }}</td>
+            <td>{{ data_to_template[state].parents_required | default("No") }}</td>
+            <td>{{ data_to_template[state].judicial_bypass_available | default("No") }}</td>
+            <td>{{ data_to_template[state].allows_minor_to_consent | default("No") }}</td>
+            <td>{{ data_to_template[state]['Last Updated'] | default("No date available") }}</td>
+        </tr>
+{%-     endfor %}
+    </tbody>
+</table>
+{%- else %}
+{%- if "waiting" in api %}
+<h1>Waiting Period Per State</h1>
+<table id = "datatable">
+    <thead>
+        <tr>
+            <th>State</th>
+            <th>Waiting Period Hours</th>
+            <th>Counseling Visits</th>
+            <th>Exception Health</th>
+            <th>Waiting Period Notes</th>
+            <th>Last Updated</th>
+        </tr>
+    </thead>
+    <tbody>    
+{%-     for state in data_to_template %}
+        <tr>
+            <td>{{ state }}</td>
+            <td>{{ data_to_template[state].waiting_period_hours | default("N/A") }}</td>
+            <td>{{ data_to_template[state].counseling_visits | default("N/A") }}</td>
+            <td>{{ data_to_template[state].exception_health | default("No") }}</td>
+            <td>{{ data_to_template[state].waiting_period_notes | default("N/A") }}</td>
+            <td>{{ data_to_template[state]['Last Updated'] | default("No date available") }}</td>
+        </tr>
+{%-     endfor %}
+    </tbody>
+</table>
+{%- endif %}{%- endif %}{%- endif %}{%- endif %}
+{%- include 'datatable_footer.j2' %}

@@ -1,0 +1,7 @@
+
+The state of Virginia age below which restrictions apply: 18
+The state of Virginia requires parental consent means that a parent or parents must give permission for the minor to have an abortion. Some states require both consent and notification through separate laws: True
+The state of Virginia requires a parent or parents must be told beforehand of the minor's decision to have an abortion. Some states require notification 48 hours before, some require notification 24 hours before, and some just require "before": True
+The state of Virginia requires If 1, one parent must be notified. If 2, both parents must be notified. If null, there are no restrictions on minors' abortions currently being enforced. Many, but not all, states have extended the definition of "parent" to include other adult guardians. If parents meeting the state's definition cannot be located, a minor would often need to secure a judicial bypass: 1
+The state of Virginia allows a judge can excuse a minor from the required parental consent and/or notification. This is available in most states with restrictions, and in some you can be excused by a doctor: True
+The date of this information is unknown.

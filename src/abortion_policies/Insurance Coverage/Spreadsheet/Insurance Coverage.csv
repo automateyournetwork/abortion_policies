@@ -1,0 +1,52 @@
+State,Requires Coverage,Private Coverage No Restrictions,Private Coverage Exception Life,Private Coverage Exception Health,Private Coverage Exception Fetal,Private Coverage Exception Rape or Incest,Exchange Coverage No Restrictions,Exchange Coverage Exception Life,Exchange Coverage Exception Health,Exchange Coverage Exception Fetal,Exchange Coverage Exception Rape or Incest,Exchange Coverage Forbids Coverage,Medicaid Coverage Provider Patient Decision,Medicaid Coverage Exception Life,Medicaid Coverage Exception Health,Medicaid Coverage Exception Fetal,Medicaid Coverage Exception Rape or Incest,Last Updated
+Alabama,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+Alaska,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Arizona,No,True,No,No,No,No,No,True,Major Bodily Function,No,No,No,No,True,No,No,True,2021-05-21T22:18:09.000Z
+Arkansas,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+California,True,No,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,2019-11-13T12:10:29.000Z
+Colorado,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,No,True,No date available
+Connecticut,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Delaware,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,No,True,No date available
+District of Columbia,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,No,True,No date available
+Florida,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+Georgia,No,True,No,No,No,No,No,True,Major Bodily Function,No,No,No,No,True,No,No,True,No date available
+Hawaii,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Idaho,No,No,True,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+Illinois,True,No,No,No,No,No,No,No,No,No,No,No,True,No,No,No,No,2019-07-02T11:35:00.000Z
+Indiana,No,No,True,Major Bodily Function,No,True,No,True,Major Bodily Function,No,True,No,No,True,Physical,No,True,No date available
+Iowa,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,Serious fetal anomaly,True,No date available
+Kansas,No,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,True,2021-05-21T22:14:13.000Z
+Kentucky,No,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,True,No date available
+Louisiana,No,True,No,No,No,No,No,No,No,No,No,True,No,True,No,No,True,No date available
+Maine,True,No,No,No,No,No,No,No,No,No,No,No,True,No,No,No,No,2019-11-13T12:09:56.000Z
+Maryland,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Massachusetts,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Michigan,No,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,True,No date available
+Minnesota,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Mississippi,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,Serious fetal anomaly,True,No date available
+Missouri,No,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,True,No date available
+Montana,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Nebraska,No,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,True,No date available
+Nevada,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,No,True,No date available
+New Hampshire,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,No,True,No date available
+New Jersey,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+New Mexico,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+New York,True,No,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,2019-11-13T12:10:25.000Z
+North Carolina,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+North Dakota,No,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,True,No date available
+Ohio,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+Oklahoma,No,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,True,No date available
+Oregon,True,No,No,No,No,No,True,No,No,No,No,No,True,True,No,No,No,No date available
+Pennsylvania,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+Rhode Island,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,No,True,No date available
+South Carolina,No,True,No,No,No,No,No,True,No,No,True,No,No,True,No,No,True,No date available
+South Dakota,No,True,No,No,No,No,No,True,Major Bodily Function,No,No,No,No,True,No,No,No,No date available
+Tennessee,No,True,No,No,No,No,No,No,No,No,No,True,No,True,No,No,True,No date available
+Texas,No,No,True,Major Bodily Function,No,No,No,True,Major Bodily Function,No,No,No,No,True,No,No,True,No date available
+Utah,No,No,True,Major Bodily Function,Lethal fetal anomaly,True,No,True,Major Bodily Function,Lethal fetal anomaly,True,No,No,True,Physical,No,True,No date available
+Vermont,No,True,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+Virginia,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,Serious fetal anomaly,True,2021-05-21T22:14:49.000Z
+Washington,True,No,No,No,No,No,True,No,No,No,No,No,True,No,No,No,No,No date available
+West Virginia,No,True,No,No,No,No,True,No,No,No,No,No,No,True,Major Bodily Function,Serious fetal anomaly,True,No date available
+Wisconsin,No,True,No,No,No,No,No,True,Physical,No,True,No,No,True,Physical,No,True,2021-05-21T22:13:01.000Z
+Wyoming,No,True,No,No,No,No,True,No,No,No,No,No,No,True,No,No,True,No date available

@@ -1,0 +1,64 @@
+{%- if "gestational" in api %}
+# Gestational Limits Per State
+{%-     for state in data_to_template %}
+## {{ state }}
+### Banned After Weeks Since Last Menstrual Period: {{ data_to_template[state].banned_after_weeks_since_LMP }}
+### Life Exception: {{ data_to_template[state].exception_life | default("No exception") }}
+### Health Exception: {{ data_to_template[state].exception_health | default("No exception") }}
+### Fetal Health Exception: {{ data_to_template[state].exception_fetal | default("No exception") }}
+### Rape or Incest Exception: {{ data_to_template[state].exception_rape_or_incest | default("No exception") }}
+### Last Updated: {{ data_to_template[state]['Last Updated'] | default("No date available") }}
+{%-     endfor %}
+{%- else %}
+{%- if "insurance" in api %}
+# Insurance Coverage Per State
+{%-     for state in data_to_template %}
+## {{ state }}
+### Requires Coverage: {{ data_to_template[state].requires_coverage | default("No exception") }}
+### Private Coverage
+#### No Restrictions: {{ data_to_template[state].private_coverage_no_restrictions | default("No exception") }}
+#### Life: {{ data_to_template[state].private_exception_life | default("No exception") }}
+#### Health: {{ data_to_template[state].private_exception_health | default("No exception") }}
+#### Fetal: {{ data_to_template[state].private_exception_fetal | default("No exception") }}
+#### Rape or Incest: {{ data_to_template[state].private_exception_rape_or_incest | default("No exception") }}
+### Exchange Coverage
+#### No Restrictions: {{ data_to_template[state].exchange_coverage_no_restrictions | default("No exception") }}
+#### Life: {{ data_to_template[state].exchange_exception_life | default("No exception") }}
+#### Health: {{ data_to_template[state].exchange_exception_health | default("No exception") }}
+#### Fetal: {{ data_to_template[state].exchange_exception_fetal | default("No exception") }}
+#### Rape or Incest: {{ data_to_template[state].exchange_exception_rape_or_incest | default("No exception") }}
+#### Forbids Coverage: {{ data_to_template[state].exchange_forbids_coverage | default("No exception") }}
+### Medicaid Coverage
+#### Provider Patient Decision: {{ data_to_template[state].medicaid_coverage_provider_patient_decision | default("No exception") }}
+#### Life: {{ data_to_template[state].medicaid_exception_life | default("No exception") }}
+#### Health: {{ data_to_template[state].medicaid_exception_health | default("No exception") }}
+#### Fetal: {{ data_to_template[state].medicaid_exception_fetal | default("No exception") }}
+#### Rape or Incest: {{ data_to_template[state].medicaid_exception_rape_or_incest | default("No exception") }}
+### Last Updated: {{ data_to_template[state]['Last Updated'] | default("No date available") }}
+{%-     endfor %}
+{%- else %}
+{%- if "minors" in api %}
+# Minor Laws Per State
+{%-     for state in data_to_template %}
+## {{ state }}
+### Below Age: {{ data_to_template[state].below_age | default("No") }}
+### Parental Requirements
+#### Consent: {{ data_to_template[state].parental_consent_required | default("No") }}
+#### Notification: {{ data_to_template[state].parental_notification_required | default("No") }}
+#### Required: {{ data_to_template[state].parents_required | default("No") }}
+### Judicial Bypass Available: {{ data_to_template[state].judicial_bypass_available | default("No") }}
+### Allows Minor to Consent: {{ data_to_template[state].allows_minor_to_consent | default("No") }}
+### Last Updated: {{ data_to_template[state]['Last Updated'] | default("No date available") }}</td>
+{%-     endfor %}
+{%- else %}
+{%- if "waiting" in api %}
+# Waiting Period Per State
+{%-     for state in data_to_template %}
+## {{ state }}
+### Hours: {{ data_to_template[state].waiting_period_hours | default("N/A") }}
+### Counseling Visits: {{ data_to_template[state].counseling_visits | default("N/A") }}
+### Exception Health: {{ data_to_template[state].exception_health | default("N/A") }}
+### Notes: {{ data_to_template[state].waiting_period_notes | default("N/A") }}
+### Last Updated: {{ data_to_template[state]['Last Updated'] | default("No date available") }}</td>
+{%-     endfor %}
+{%- endif %}{%- endif %}{%- endif %}{%- endif %}

@@ -1,0 +1,130 @@
+{
+    "Alabama": {
+        "counseling_visits": 1,
+        "counseling_waived_condition": "In cases of ectopic pregnancy or severe fetal impairment.",
+        "waiting_period_hours": 48
+    },
+    "Alaska": {
+        "Last Updated": "2022-02-15T21:04:41.000Z",
+        "counseling_visits": 1
+    },
+    "Arizona": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 24
+    },
+    "Arkansas": {
+        "Last Updated": "2019-11-13T12:13:26.000Z",
+        "counseling_visits": 2,
+        "waiting_period_hours": 72
+    },
+    "Florida": {
+        "Last Updated": "2022-04-04T14:57:11.000Z",
+        "counseling_visits": 2,
+        "waiting_period_hours": 24
+    },
+    "Georgia": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "Idaho": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "Indiana": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 18
+    },
+    "Iowa": {
+        "Last Updated": "2022-06-18T17:06:11.000Z",
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "Kansas": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "Kentucky": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 24
+    },
+    "Louisiana": {
+        "Last Updated": "2022-06-16T13:15:50.000Z",
+        "counseling_visits": 2,
+        "waiting_period_hours": 72
+    },
+    "Michigan": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "Minnesota": {
+        "counseling_visits": 1,
+        "counseling_waived_condition": "Counseling/waiting period waived in cases of lethal fetal anomaly.",
+        "waiting_period_hours": 24
+    },
+    "Mississippi": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 24
+    },
+    "Missouri": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 72
+    },
+    "Nebraska": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "North Carolina": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 72
+    },
+    "North Dakota": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "Ohio": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 24
+    },
+    "Oklahoma": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 72
+    },
+    "Pennsylvania": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "South Carolina": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "South Dakota": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 72,
+        "waiting_period_notes": "Weekends and holidays do not count towards the 72-hour waiting period."
+    },
+    "Tennessee": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 48
+    },
+    "Texas": {
+        "counseling_visits": 2,
+        "counseling_waived_condition": "The ultrasound must take place at least 24 hours before the abortion unless the patient lives more than 100 miles from an abortion provider or if the pregnancy is the result of rape or incest or if the fetus has a lethal anomaly.",
+        "waiting_period_hours": 24
+    },
+    "Utah": {
+        "counseling_visits": 2,
+        "counseling_waived_condition": "If the pregnancy is the result of rape or incest or the patient is younger than 15.",
+        "waiting_period_hours": 72
+    },
+    "Virginia": {
+        "Last Updated": "2020-07-06T15:57:47.000Z"
+    },
+    "West Virginia": {
+        "counseling_visits": 1,
+        "waiting_period_hours": 24
+    },
+    "Wisconsin": {
+        "counseling_visits": 2,
+        "waiting_period_hours": 24
+    }
+}

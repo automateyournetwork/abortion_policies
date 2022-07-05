@@ -1,0 +1,129 @@
+{%- if "gestational" in api %}The state of {{ state }} bans abortions after {{ policy.banned_after_weeks_since_LMP }} weeks since last menstrual period.
+{%-    if policy.exception_life is defined %}
+Abortions are not banned in {{ state }} if it's necessary to save the pregnant person's life - {{ policy.exception_life }}.
+{%-    else %}
+Abortions are banned in {{ state }} even if it's necessary to save the pregnant person's life without exception.
+{%-    endif %}
+{%-     if policy.exception_health is defined %}
+Abortions are not banned in {{ state }} if it's necessary to preserve the pregnant person's health: {{ policy.exception_health }} health.
+{%-    else %}
+Abortions are banned in {{ state }} even if it's necessary to preserve the pregnant person's health without exception.
+{%-    endif %}
+{%-    if policy.exception_fetal is defined %}
+Abortions are not banned in {{ state }} if there are {{ policy.exception_fetal }}.
+{%-    else %}
+Abortions are banned in {{ state }} regardless of the health of the fetus.
+{%-    endif %}
+{%-    if policy.exception_rape_or_incest is defined %}
+Abortions are not banned in {{ state }} in the case of rape or incest: {{ policy.exception_rape_or_incest }}.
+{%-    else %}
+Abortions are banned in {{ state }} even in the case of rape or incest.
+{%-    endif %}
+{%-    if policy['Last Updated'] is defined %}
+This data was last updated {{ policy['Last Updated'] }}
+{%-    else %}
+The date of this information is unknown.
+{%-    endif %}
+{%- else %}
+{%- if "insurance" in api %}
+{%-     if policy.requires_coverage is defined %}
+The state of {{ state }} requires private health plan coverage: {{ policy.requires_coverage }}.
+{%-     endif %}
+{%-     if policy.private_coverage_no_restrictions is defined %}
+The state of {{ state }} requires private health plan coverage without restrictions: {{ policy.private_coverage_no_restrictions }}.
+{%-     endif %}
+{%-     if policy.private_exception_life is defined %}
+The state of {{ state }}, despite other restrictions, the state allows private insurance coverage for cases where abortion is necessary to save the pregnant person's life: {{ policy.private_exception_life }}.
+{%-     endif %}
+{%-     if policy.private_exception_health is defined %}
+The state of {{ state }} allows private insurance coverage for cases when the pregnant person's faces a "substantial and irreversible impairment of a major bodily function": {{ policy.private_exception_health }}.
+{%-     endif %}
+{%-     if policy.private_exception_fetal is defined %}
+The state of {{ state }} allows private insurance coverage for cases when the fetus has a lethal fetal anomaly: {{ policy.private_exception_fetal }}.
+{%-     endif %}
+{%-     if policy.private_exception_rape_or_incest is defined %}
+The state of {{ state }} allows private insurance coverage for cases of rape or incest: {{ policy.private_exception_fetal }}.
+{%-     endif %}
+{%-     if policy.exchange_coverage_no_restrictions is defined %}
+The state of {{ state }} Exchange plans refer to health plans offered in the state's Health Care Exchange that was established under the federal Affordable Care Act. The federal ACA law included a provision that encouraged states to adopt abortion coverage restrictions: {{ policy.exchange_coverage_no_restrictions }}.
+{%-     endif %}
+{%-     if policy.exchange_exception_life is defined %}
+The state of {{ state }}, despite other restrictions, the state allows exchange insurance coverage for cases where abortion is necessary to save the pregnant person's life. Exchange plans refer to health plans offered in the state's Health Care Exchange that was established under the federal Affordable Care Act. The federal ACA law included a provision that encouraged states to adopt abortion coverage restrictions: {{ policy.exchange_exception_life }}.
+{%-     endif %}
+{%-     if policy.exchange_exception_health is defined %}
+The state of {{ state }}, despite other restrictions, the state allows exchange insurance coverage for cases when the pregnant person's faces a "substantial and irreversible impairment of a major bodily function" or other serious impacts on "physical" health. Exchange plans refer to health plans offered in the state's Health Care Exchange that was established under the federal Affordable Care Act. The federal ACA law included a provision that encouraged states to adopt abortion coverage restrictions: {{ policy.exchange_exception_health }}.
+{%-     endif %}
+{%-     if policy.exchange_exception_fetal is defined %}
+The state of {{ state }}, despite other restrictions, the state allows exchange insurance coverage for cases when the fetus has a lethal fetal anomaly. Exchange plans refer to health plans offered in the state's Health Care Exchange that was established under the federal Affordable Care Act. The federal ACA law included a provision that encouraged states to adopt abortion coverage restrictions: {{ policy.exchange_exception_fetal }}.
+{%-     endif %}
+{%-     if policy.exchange_exception_rape_or_incest is defined %}
+The state of {{ state }}, despite other restrictions, the state allows exchange insurance coverage for cases of rape or incest. Exchange plans refer to health plans offered in the state's Health Care Exchange that was established under the federal Affordable Care Act. The federal ACA law included a provision that encouraged states to adopt abortion coverage restrictions: {{ policy.exchange_exception_rape_or_incest }}.
+{%-     endif %}
+{%-     if policy.exchange_forbids_coverage is defined %}
+The state of {{ state }} prohibits any and all exchange insurance coverage for abortion. Exchange plans refer to health plans offered in the state's Health Care Exchange that was established under the federal Affordable Care Act. The federal ACA law included a provision that encouraged states to adopt abortion coverage restrictions: {{ policy.exchange_forbids_coverage }}.
+{%-     endif %}
+{%-     if policy.medicaid_coverage_provider_patient_decision is defined %}
+The state of {{ state }} has a policy in place to use Medicaid funds to pay for abortion, most of these states require coverage for "medically necessary" abortion. This is a vaguely-defined criterion usually based on a decision between a pregnant person and their medical provider and can include circumstances beyond physical health, such as mental or emotional health or familial situations. Medicaid is a federal-state insurance program. Based on the Hyde amendment, states are required to use Medicaid funds to pay for abortion in cases of rape, of incest, or when the pregnant person's life is endangered; these are also the only circumstances in which federal Medicaid funds may be used to pay for abortion. Most states limit abortion coverage just to the Hyde amendment, though some states offer additional coverage (for example, when the pregnant person's health is at risk): {{ policy.medicaid_coverage_provider_patient_decision }}.
+{%-     endif %}
+{%-     if policy.medicaid_exception_life is defined %}
+The state of {{ state }} allows Medicaid insurance coverage for cases where abortion is necessary to save the pregnant person's life (this is required by the Hyde amendment). Medicaid is a federal-state insurance program. Based on the Hyde amendment, states are required to use Medicaid funds to pay for abortion in cases of rape, of incest, or when the pregnant person's life is endangered; these are also the only circumstances in which federal Medicaid funds may be used to pay for abortion. Most states limit abortion coverage just to the Hyde amendment, though some states offer additional coverage (for example, when the pregnant person's health is at risk): {{ policy.medicaid_exception_life }}.
+{%-     endif %}
+{%-     if policy.medicaid_exception_health is defined %}
+The state of {{ state }} allows Medicaid insurance coverage for cases when the pregnant person's physical health is endangered. Medicaid is a federal-state insurance program. Based on the Hyde amendment, states are required to use Medicaid funds to pay for abortion in cases of rape, of incest, or when the pregnant person's life is endangered; these are also the only circumstances in which federal Medicaid funds may be used to pay for abortion. Most states limit abortion coverage just to the Hyde amendment, though some states offer additional coverage (for example, when the pregnant person's health is at risk): {{ policy.medicaid_exception_health }}.
+{%-     endif %}
+{%-     if policy.medicaid_exception_fetal is defined %}
+The state of {{ state }} allows Medicaid insurance coverage for cases when the fetus has a serious or lethal fetal anomaly. Medicaid is a federal-state insurance program. Based on the Hyde amendment, states are required to use Medicaid funds to pay for abortion in cases of rape, of incest, or when the pregnant person's life is endangered; these are also the only circumstances in which federal Medicaid funds may be used to pay for abortion. Most states limit abortion coverage just to the Hyde amendment, though some states offer additional coverage (for example, when the pregnant person's health is at risk): {{ policy.medicaid_exception_fetal }}.
+{%-     endif %}
+{%-     if policy.medicaid_exception_rape_or_incest is defined %}
+The state of {{ state }} allows Medicaid insurance coverage for cases of rape or incest (this is required by the Hyde amendment). Medicaid is a federal-state insurance program. Based on the Hyde amendment, states are required to use Medicaid funds to pay for abortion in cases of rape, of incest, or when the pregnant person's life is endangered; these are also the only circumstances in which federal Medicaid funds may be used to pay for abortion. Most states limit abortion coverage just to the Hyde amendment, though some states offer additional coverage (for example, when the pregnant person's health is at risk): {{ policy.medicaid_exception_rape_or_incest }}.
+{%-     endif %}
+{%-    if policy['Last Updated'] is defined %}
+This data was last updated {{ policy['Last Updated'] }}
+{%-    else %}
+The date of this information is unknown.
+{%-    endif %}
+{%- else %}
+{%- if "minors" in api %}
+{%-     if policy.below_age is defined %}
+The state of {{ state }} age below which restrictions apply: {{ policy.below_age }}
+{%-     endif %}
+{%-     if policy.parental_consent_required is defined %}
+The state of {{ state }} requires parental consent means that a parent or parents must give permission for the minor to have an abortion. Some states require both consent and notification through separate laws: {{ policy.parental_consent_required }}
+{%-     endif %}
+{%-     if policy.parental_notification_required is defined %}
+The state of {{ state }} requires a parent or parents must be told beforehand of the minor's decision to have an abortion. Some states require notification 48 hours before, some require notification 24 hours before, and some just require "before": {{ policy.parental_notification_required }}
+{%-     endif %}
+{%-     if policy.parents_required is defined %}
+The state of {{ state }} requires If 1, one parent must be notified. If 2, both parents must be notified. If null, there are no restrictions on minors' abortions currently being enforced. Many, but not all, states have extended the definition of "parent" to include other adult guardians. If parents meeting the state's definition cannot be located, a minor would often need to secure a judicial bypass: {{ policy.parents_required }}
+{%-     endif %}
+{%-     if policy.judicial_bypass_available is defined %}
+The state of {{ state }} allows a judge can excuse a minor from the required parental consent and/or notification. This is available in most states with restrictions, and in some you can be excused by a doctor: {{ policy.judicial_bypass_available }}
+{%-     endif %}
+{%-     if policy.allows_minor_to_consent is defined %}
+The state of {{ state }} either explicitly grant a minor the ability to consent to an abortion (through the law) or implicitly allow a minor to consent (because no law expressly requires parental involvement or because a parental involvement law was struck down in the courts): {{ policy.allows_minor_to_consent }}
+{%-     endif %}
+{%-    if policy['Last Updated'] is defined %}
+This data was last updated {{ policy['Last Updated'] }}
+{%-    else %}
+The date of this information is unknown.
+{%-    endif %}
+{%- else %}
+{%- if "waiting" in api %}
+{%-     if policy.waiting_period_hours is defined %}
+In the state of {{ state }} you must wait {{ policy.waiting_period_hours }} hours between receiving state mandated abortion counseling and obtaining an abortion. If null, no waiting period is in effect. Note that all states waive mandatory waiting period requirements in a medical emergency or when the woman's life or health is threatened.
+{%-     endif %}
+{%-     if policy.counseling_visits is defined %}
+The state of {{ state }} requires {{ policy.counseling_visits }} counseling visits. 1 = Counseling required by the state. 2 = Abortion counseling or ultrasound must be obtained at the facility before the waiting period begins, requiring two trips to the clinic
+{%-     endif %}
+{%-     if policy.exception_health is defined %}
+The state of {{ state }} counseling requirement can be waived under certain conditions, described by the text field if not-null.
+{%-     endif %}
+{%-     if policy.waiting_period_notes is defined %}
+The state of {{ state }} some sufficiently weird policies around waiting periods that it seemed useful to just add in notes about them. The notes for this state are {{ policy.waiting_period_notes }}.
+{%-     endif %}
+{%-    if policy['Last Updated'] is defined %}
+This data was last updated {{ policy['Last Updated'] }}
+{%-    else %}
+The date of this information is unknown.
+{%-    endif %}
+{%- endif %}{%- endif %}{%- endif %}{%- endif %}

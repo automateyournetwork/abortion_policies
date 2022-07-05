@@ -1,0 +1,332 @@
+{
+    "Alabama": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Alaska": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Arizona": {
+        "Last Updated": "2021-05-21T22:18:09.000Z",
+        "exchange_exception_health": "Major Bodily Function",
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Arkansas": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "California": {
+        "Last Updated": "2019-11-13T12:10:29.000Z",
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "requires_coverage": true
+    },
+    "Colorado": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Connecticut": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Delaware": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "District of Columbia": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Florida": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Georgia": {
+        "exchange_exception_health": "Major Bodily Function",
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Hawaii": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Idaho": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Illinois": {
+        "Last Updated": "2019-07-02T11:35:00.000Z",
+        "medicaid_coverage_provider_patient_decision": true,
+        "requires_coverage": true
+    },
+    "Indiana": {
+        "exchange_exception_health": "Major Bodily Function",
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_health": "Physical",
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_health": "Major Bodily Function",
+        "private_exception_life": true,
+        "private_exception_rape_or_incest": true
+    },
+    "Iowa": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_fetal": "Serious fetal anomaly",
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Kansas": {
+        "Last Updated": "2021-05-21T22:14:13.000Z",
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Kentucky": {
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Louisiana": {
+        "exchange_forbids_coverage": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Maine": {
+        "Last Updated": "2019-11-13T12:09:56.000Z",
+        "medicaid_coverage_provider_patient_decision": true,
+        "requires_coverage": true
+    },
+    "Maryland": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Massachusetts": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Michigan": {
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Minnesota": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Mississippi": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_fetal": "Serious fetal anomaly",
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Missouri": {
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Montana": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Nebraska": {
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Nevada": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "New Hampshire": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "New Jersey": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "New Mexico": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "New York": {
+        "Last Updated": "2019-11-13T12:10:25.000Z",
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "requires_coverage": true
+    },
+    "North Carolina": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "North Dakota": {
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Ohio": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Oklahoma": {
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_life": true
+    },
+    "Oregon": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "medicaid_exception_life": true,
+        "requires_coverage": true
+    },
+    "Pennsylvania": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Rhode Island": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "South Carolina": {
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "South Dakota": {
+        "exchange_exception_health": "Major Bodily Function",
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Tennessee": {
+        "exchange_forbids_coverage": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Texas": {
+        "exchange_exception_health": "Major Bodily Function",
+        "exchange_exception_life": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_health": "Major Bodily Function",
+        "private_exception_life": true
+    },
+    "Utah": {
+        "exchange_exception_fetal": "Lethal fetal anomaly",
+        "exchange_exception_health": "Major Bodily Function",
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_health": "Physical",
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_exception_fetal": "Lethal fetal anomaly",
+        "private_exception_health": "Major Bodily Function",
+        "private_exception_life": true,
+        "private_exception_rape_or_incest": true
+    },
+    "Vermont": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Virginia": {
+        "Last Updated": "2021-05-21T22:14:49.000Z",
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_fetal": "Serious fetal anomaly",
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Washington": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_coverage_provider_patient_decision": true,
+        "requires_coverage": true
+    },
+    "West Virginia": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_fetal": "Serious fetal anomaly",
+        "medicaid_exception_health": "Major Bodily Function",
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Wisconsin": {
+        "Last Updated": "2021-05-21T22:13:01.000Z",
+        "exchange_exception_health": "Physical",
+        "exchange_exception_life": true,
+        "exchange_exception_rape_or_incest": true,
+        "medicaid_exception_health": "Physical",
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    },
+    "Wyoming": {
+        "exchange_coverage_no_restrictions": true,
+        "medicaid_exception_life": true,
+        "medicaid_exception_rape_or_incest": true,
+        "private_coverage_no_restrictions": true
+    }
+}

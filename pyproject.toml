@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "abortion_policies"
+version = "0.1.0"
+description = "Easy to read abortion policies by state from the Abortion Policy API"
+authors = ["John Capobianco <ptcapo@gmail.com>"]
+packages = [{ include = "abortion_policies", from = "src"}]
+readme = "README.md"
+
+[tool.poetry.scripts]
+abortion_policies = "abortion_policies.script:run"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.1"
+rich-click = "^1.5.1"
+Jinja2 = "^3.1.2"
+gTTS = "^2.2.4"
+PyYAML = "^6.0"
+CairoSVG = "^2.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

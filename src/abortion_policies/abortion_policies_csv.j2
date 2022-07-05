@@ -1,0 +1,20 @@
+{%- if "gestational" in api %}State,Banned After Weeks Since Last Menstrual Period,Life Exception,Health Exception,Fetal Health Exception,Rape or Incest Exception,Last Updated
+{%-     for state in data_to_template %}
+{{ state }},{{ data_to_template[state].banned_after_weeks_since_LMP }},{{ data_to_template[state].exception_life | default("No exception") }},{{ data_to_template[state].exception_health | default("No exception") }},{{ data_to_template[state].exception_fetal | default("No exception") }},{{ data_to_template[state].exception_rape_or_incest | default("No exception") }},{{ data_to_template[state]['Last Updated'] | default("No date available") }}
+{%-     endfor %}
+{%- else %}
+{%- if "insurance" in api %}State,Requires Coverage,Private Coverage No Restrictions,Private Coverage Exception Life,Private Coverage Exception Health,Private Coverage Exception Fetal,Private Coverage Exception Rape or Incest,Exchange Coverage No Restrictions,Exchange Coverage Exception Life,Exchange Coverage Exception Health,Exchange Coverage Exception Fetal,Exchange Coverage Exception Rape or Incest,Exchange Coverage Forbids Coverage,Medicaid Coverage Provider Patient Decision,Medicaid Coverage Exception Life,Medicaid Coverage Exception Health,Medicaid Coverage Exception Fetal,Medicaid Coverage Exception Rape or Incest,Last Updated
+{%-     for state in data_to_template %}
+{{ state }},{{ data_to_template[state].requires_coverage | default("No") }},{{ data_to_template[state].private_coverage_no_restrictions | default("No") }},{{ data_to_template[state].private_exception_life | default("No") }},{{ data_to_template[state].private_exception_health | default("No") }},{{ data_to_template[state].private_exception_fetal | default("No") }},{{ data_to_template[state].private_exception_rape_or_incest | default("No") }},{{ data_to_template[state].exchange_coverage_no_restrictions | default("No") }},{{ data_to_template[state].exchange_exception_life | default("No") }},{{ data_to_template[state].exchange_exception_health | default("No") }},{{ data_to_template[state].exchange_exception_fetal | default("No") }},{{ data_to_template[state].exchange_exception_rape_or_incest | default("No") }},{{ data_to_template[state].exchange_forbids_coverage | default("No") }},{{ data_to_template[state].medicaid_coverage_provider_patient_decision | default("No") }},{{ data_to_template[state].medicaid_exception_life | default("No") }},{{ data_to_template[state].medicaid_exception_health | default("No") }},{{ data_to_template[state].medicaid_exception_fetal | default("No") }},{{ data_to_template[state].medicaid_exception_rape_or_incest | default("No") }},{{ data_to_template[state]['Last Updated'] | default("No date available") }}
+{%-     endfor %}
+{%- else %}
+{%- if "minors" in api %}State,Below Age,Parental Consent Required,Parental Notification Required,Parents Required,Judicial Bypass Available,Allows Minor to Consent,Last Updated
+{%-     for state in data_to_template %}
+{{ state }},{{ data_to_template[state].below_age | default("No") }},{{ data_to_template[state].parental_consent_required | default("No") }},{{ data_to_template[state].parental_notification_required | default("No") }},{{ data_to_template[state].parents_required | default("No") }},{{ data_to_template[state].judicial_bypass_available | default("No") }},{{ data_to_template[state].allows_minor_to_consent | default("No") }},{{ data_to_template[state]['Last Updated'] | default("No date available") }}
+{%-     endfor %}
+{%- else %}
+{%- if "waiting" in api %}State,Waiting Period Hours,Counseling Visits,Exception Health,Waiting Period Notes,Last Updated
+{%-     for state in data_to_template %}
+{{ state }},{{ data_to_template[state].waiting_period_hours | default("N/A") }},{{ data_to_template[state].counseling_visits | default("N/A") }},{{ data_to_template[state].exception_health | default("No") }},{{ data_to_template[state].waiting_period_notes | default("N/A") }},{{ data_to_template[state]['Last Updated'] | default("No date available") }}
+{%-     endfor %}
+{%- endif %}{%- endif %}{%- endif %}{%- endif %}

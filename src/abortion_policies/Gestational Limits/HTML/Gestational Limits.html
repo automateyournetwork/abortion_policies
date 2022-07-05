@@ -1,0 +1,513 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Gestational Limits Per State</h1>
+<table id = "datatable">
+    <thead>
+        <tr>
+            <th>State</th>
+            <th>Banned after Weeks Since Last Menstrual Period</th>
+            <th>Life Exception</th>
+            <th>Health Exception</th>
+            <th>Fetal Health Exception</th>
+            <th>Rape or Incest Exception</th>
+            <th>Last Updated</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Alabama</td>
+            <td>0</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-28T22:14:05.000Z</td>
+        </tr>
+        <tr>
+            <td>Arizona</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-30T13:26:49.000Z</td>
+        </tr>
+        <tr>
+            <td>Arkansas</td>
+            <td>0</td>
+            <td>True</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-24T18:39:14.000Z</td>
+        </tr>
+        <tr>
+            <td>California</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Connecticut</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Delaware</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>Lethal fetal anomaly</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>District of Columbia</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Florida</td>
+            <td>15</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>Lethal fetal anomaly</td>
+            <td>No exception</td>
+            <td>2022-07-05T15:55:49.000Z</td>
+        </tr>
+        <tr>
+            <td>Georgia</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>Lethal fetal anomaly</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Hawaii</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Idaho</td>
+            <td>99</td>
+            <td>True</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Illinois</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Indiana</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Iowa</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Kansas</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Kentucky</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-30T14:01:14.000Z</td>
+        </tr>
+        <tr>
+            <td>Louisiana</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>Lethal fetal anomaly</td>
+            <td>No exception</td>
+            <td>2022-06-27T18:06:17.000Z</td>
+        </tr>
+        <tr>
+            <td>Maine</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Maryland</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>Serious fetal anomaly</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Massachusetts</td>
+            <td>24</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>Lethal fetal anomaly</td>
+            <td>No exception</td>
+            <td>2022-06-30T09:58:24.000Z</td>
+        </tr>
+        <tr>
+            <td>Michigan</td>
+            <td>99</td>
+            <td>True</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Minnesota</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Mississippi</td>
+            <td>20</td>
+            <td>True</td>
+            <td>Major Bodily Function</td>
+            <td>Serious fetal anomaly</td>
+            <td>No exception</td>
+            <td>2022-06-27T13:29:59.000Z</td>
+        </tr>
+        <tr>
+            <td>Missouri</td>
+            <td>0</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-24T15:19:57.000Z</td>
+        </tr>
+        <tr>
+            <td>Montana</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Major Bodily Function</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Nebraska</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Nevada</td>
+            <td>24</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>New Hampshire</td>
+            <td>24</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-02-11T15:50:11.000Z</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>North Carolina</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2019-11-13T12:12:09.000Z</td>
+        </tr>
+        <tr>
+            <td>North Dakota</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Ohio</td>
+            <td>6</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-24T22:39:26.000Z</td>
+        </tr>
+        <tr>
+            <td>Oklahoma</td>
+            <td>0</td>
+            <td>True</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-24T18:35:26.000Z</td>
+        </tr>
+        <tr>
+            <td>Pennsylvania</td>
+            <td>24</td>
+            <td>True</td>
+            <td>Major Bodily Function</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Rhode Island</td>
+            <td>99</td>
+            <td>True</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2019-07-02T11:33:41.000Z</td>
+        </tr>
+        <tr>
+            <td>South Carolina</td>
+            <td>6</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>Lethal fetal anomaly</td>
+            <td>True</td>
+            <td>2022-06-27T22:30:55.000Z</td>
+        </tr>
+        <tr>
+            <td>South Dakota</td>
+            <td>0</td>
+            <td>True</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-24T14:47:55.000Z</td>
+        </tr>
+        <tr>
+            <td>Tennessee</td>
+            <td>6</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-06-28T16:54:23.000Z</td>
+        </tr>
+        <tr>
+            <td>Texas</td>
+            <td>0</td>
+            <td>True</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-07-02T10:05:28.000Z</td>
+        </tr>
+        <tr>
+            <td>Utah</td>
+            <td>18</td>
+            <td>True</td>
+            <td>Major Bodily Function</td>
+            <td>Lethal fetal anomaly</td>
+            <td>True</td>
+            <td>2022-07-01T19:52:54.000Z</td>
+        </tr>
+        <tr>
+            <td>Virginia</td>
+            <td>26</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>2022-02-15T21:04:54.000Z</td>
+        </tr>
+        <tr>
+            <td>Washington</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>West Virginia</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Physical</td>
+            <td>Lethal fetal anomaly</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Wisconsin</td>
+            <td>22</td>
+            <td>True</td>
+            <td>Major Bodily Function</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Wyoming</td>
+            <td>99</td>
+            <td>True</td>
+            <td>Any</td>
+            <td>No exception</td>
+            <td>No exception</td>
+            <td>No date available</td>
+        </tr>
+    </tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>

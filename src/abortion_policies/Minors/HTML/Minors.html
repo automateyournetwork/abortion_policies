@@ -1,0 +1,619 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Minors Per State</h1>
+<table id = "datatable">
+    <thead>
+        <tr>
+            <th>State</th>
+            <th>Below Age</th>
+            <th>Parental Consent Required</th>
+            <th>Parental Notification Required</th>
+            <th>Parents Required</th>
+            <th>Judicial Bypass Available</th>
+            <th>Allows Minor to Consent</th>
+            <th>Last Updated</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Alabama</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Alaska</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Arizona</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Arkansas</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>California</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Colorado</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Connecticut</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Delaware</td>
+            <td>16</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>District of Columbia</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Florida</td>
+            <td>18</td>
+            <td>True</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>2021-05-21T22:00:20.000Z</td>
+        </tr>
+        <tr>
+            <td>Georgia</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Hawaii</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Idaho</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Illinois</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>2022-06-03T16:56:26.000Z</td>
+        </tr>
+        <tr>
+            <td>Indiana</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Iowa</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Kansas</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>2</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Kentucky</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Louisiana</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Maine</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Maryland</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Massachusetts</td>
+            <td>16</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>2022-06-30T09:54:47.000Z</td>
+        </tr>
+        <tr>
+            <td>Michigan</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Minnesota</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>2</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Mississippi</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>2</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Missouri</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Montana</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>2022-02-11T15:51:59.000Z</td>
+        </tr>
+        <tr>
+            <td>Nebraska</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Nevada</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>New Hampshire</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>New Jersey</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>New Mexico</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>North Carolina</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>North Dakota</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>2</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Ohio</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Oklahoma</td>
+            <td>18</td>
+            <td>True</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Oregon</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Pennsylvania</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Rhode Island</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>South Carolina</td>
+            <td>17</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>South Dakota</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Tennessee</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Texas</td>
+            <td>18</td>
+            <td>True</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Utah</td>
+            <td>18</td>
+            <td>True</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Vermont</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Virginia</td>
+            <td>18</td>
+            <td>True</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Washington</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>West Virginia</td>
+            <td>18</td>
+            <td>No</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Wisconsin</td>
+            <td>18</td>
+            <td>True</td>
+            <td>No</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+        <tr>
+            <td>Wyoming</td>
+            <td>18</td>
+            <td>True</td>
+            <td>True</td>
+            <td>1</td>
+            <td>True</td>
+            <td>No</td>
+            <td>No date available</td>
+        </tr>
+    </tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>
