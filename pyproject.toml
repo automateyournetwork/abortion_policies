@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "abortion_policies"
-version = "0.1.0"
+version = "1.0.0"
 description = "Easy to read abortion policies by state from the Abortion Policy API"
 authors = ["John Capobianco <ptcapo@gmail.com>"]
 packages = [{ include = "abortion_policies", from = "src"}]
