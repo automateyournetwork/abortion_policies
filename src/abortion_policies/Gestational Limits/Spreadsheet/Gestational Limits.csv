@@ -15,13 +15,13 @@ Indiana,22,True,Physical,No exception,No exception,No date available
 Iowa,22,True,Physical,No exception,No exception,No date available
 Kansas,22,True,Physical,No exception,No exception,No date available
 Kentucky,22,True,Physical,No exception,No exception,2022-06-30T14:01:14.000Z
-Louisiana,22,True,Physical,Lethal fetal anomaly,No exception,2022-06-27T18:06:17.000Z
+Louisiana,22,True,Physical,Lethal fetal anomaly,No exception,2022-07-12T22:24:10.000Z
 Maine,99,True,Any,No exception,No exception,No date available
 Maryland,99,True,Any,Serious fetal anomaly,No exception,No date available
 Massachusetts,24,True,Any,Lethal fetal anomaly,No exception,2022-06-30T09:58:24.000Z
 Michigan,99,True,No exception,No exception,No exception,No date available
 Minnesota,99,True,Any,No exception,No exception,No date available
-Mississippi,20,True,Major Bodily Function,Serious fetal anomaly,No exception,2022-06-27T13:29:59.000Z
+Mississippi,0,True,No exception,No exception,True,2022-07-07T09:30:33.000Z
 Missouri,0,True,Physical,No exception,No exception,2022-06-24T15:19:57.000Z
 Montana,99,True,Major Bodily Function,No exception,No exception,No date available
 Nebraska,22,True,Physical,No exception,No exception,No date available

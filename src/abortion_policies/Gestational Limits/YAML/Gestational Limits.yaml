@@ -69,7 +69,7 @@ Kentucky:
   exception_health: Physical
   exception_life: true
 Louisiana:
-  Last Updated: '2022-06-27T18:06:17.000Z'
+  Last Updated: '2022-07-12T22:24:10.000Z'
   banned_after_weeks_since_LMP: 22
   exception_fetal: Lethal fetal anomaly
   exception_health: Physical
@@ -97,11 +97,10 @@ Minnesota:
   exception_health: Any
   exception_life: true
 Mississippi:
-  Last Updated: '2022-06-27T13:29:59.000Z'
-  banned_after_weeks_since_LMP: 20
-  exception_fetal: Serious fetal anomaly
-  exception_health: Major Bodily Function
+  Last Updated: '2022-07-07T09:30:33.000Z'
+  banned_after_weeks_since_LMP: 0
   exception_life: true
+  exception_rape_or_incest: true
 Missouri:
   Last Updated: '2022-06-24T15:19:57.000Z'
   banned_after_weeks_since_LMP: 0

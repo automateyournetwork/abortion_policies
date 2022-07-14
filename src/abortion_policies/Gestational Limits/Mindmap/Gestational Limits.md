@@ -118,7 +118,7 @@
 ### Health Exception: Physical
 ### Fetal Health Exception: Lethal fetal anomaly
 ### Rape or Incest Exception: No exception
-### Last Updated: 2022-06-27T18:06:17.000Z
+### Last Updated: 2022-07-12T22:24:10.000Z
 ## Maine
 ### Banned After Weeks Since Last Menstrual Period: 99
 ### Life Exception: True
@@ -155,12 +155,12 @@
 ### Rape or Incest Exception: No exception
 ### Last Updated: No date available
 ## Mississippi
-### Banned After Weeks Since Last Menstrual Period: 20
+### Banned After Weeks Since Last Menstrual Period: 0
 ### Life Exception: True
-### Health Exception: Major Bodily Function
-### Fetal Health Exception: Serious fetal anomaly
-### Rape or Incest Exception: No exception
-### Last Updated: 2022-06-27T13:29:59.000Z
+### Health Exception: No exception
+### Fetal Health Exception: No exception
+### Rape or Incest Exception: True
+### Last Updated: 2022-07-07T09:30:33.000Z
 ## Missouri
 ### Banned After Weeks Since Last Menstrual Period: 0
 ### Life Exception: True
